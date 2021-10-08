@@ -1,0 +1,410 @@
+%-------------------------
+% Resume in Latex
+% Author : Alireza Zza
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Alireza Zarenejad} \\ \vspace{10pt}
+    \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (+98) 910 279 6696 ~ \href{mailto:azarenejad99@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{azarenejad99@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/alireza-zarenejad-ashkezari-3a0264179/}{\raisebox{-0.2\height}\faLinkedin\ \underline{Linkedin}}  ~
+    \href{https://github.com/AZarenejad}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/azarenejad}}
+    \\
+    \vspace{5pt}
+    \href{azarenejad.github.io}{\raisebox{-0.2\height}\faGlobe\  \underline{azarenejad.github.io}} ~ 
+     \vspace{-8pt}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\vspace{5pt}
+\justifying
+{I'm an undergraduate Computer Engineering student at 
+\href{https://ece.ut.ac.ir/en}{ECE Department}
+of
+\href{https://ut.ac.ir/en}{University of Tehran}. 
+Top student at one of the greatest universities in Iran. Responsible researcher, teaching assistant. Proficient in programming and system designing. Seeking to leverage my knowledge about artificial intelligence. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
+\href{https://mahsan.co}{Mahsan company}.}
+
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Computer Engineering}{Sep. 2017 -- Sep. 2021}
+      {University of Tehran, Software Engineering}{Tehran, Iran}
+    \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{\textbf{GPA}: 18.76/20 (4/4)}
+        \resumeItem{\textbf{Final project}: Multilingual questions and answers retrival using context-based representation (BERT)}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Diploma in Physics and Mathematics Discipline}{Sep. 2013 -- Jun. 2017}
+      {shahid Beheshti High-school (
+      \href{https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents}{National Organization for Development of Exceptional Talents})}{Rey, Tehran, Iran}
+    \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{\textbf{GPA}: 19.84/20 (4/4)}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%------Selected Courses-------
+\section{Selected Courses}
+\vspace{5pt}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{2}
+            \begin{itemize}[itemsep=-5pt, parsep=8pt]
+                \item\small Object Oriented Design Pattern (19.11)
+                \item Parallel Programming (18.2)
+                \item Software Testing (20)
+                \item Research and Technical Presentation (19.6)
+                \item Internet Engineering (19.7)
+                \item Database Design (19.2)
+                \item Computer Networks (20)
+                \item Data Transmission (18.4)
+                \item Systems Analysis and Design (19.2)
+                \item Artificial Intelligence (18)
+                \item Computer Architecture (18.2)
+                \item Algorithm Design (19.7)
+                \item Data Structures (18.2)
+                \item Engineering Probability and Statistics (19.8)
+                \item Discrete Mathematics (19.5)
+            \end{itemize}
+        \end{multicols}
+        \vspace*{-1.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------Honors and Awards -----------
+\section{Honors and Awards}
+\vspace{5pt}
+\begin{description}
+  \item[$\ast$] \small\textbf{Ranked 125}{ in Iranian University Entrance Exam among more than 250000 participants, admission to University of Tehran. } 
+  \item[$\ast$] \small\textbf{Ranked 6}{ in Computer Engineering at University of Tehran, among the 103 students, Tehran, Iran.} 
+\item[$\ast$] \small\textbf{Received scholarship}{ from Supporter Foundation of University of Tehran as student with exceptional talent.} 
+\item[$\ast$] \small\textbf{Admission to University of Tehran and Sharif University of Technology }{ for the master’s degree without the Iranian University Entrance Exam because of the exceptional performance in the undergraduate studies.} 
+\end{description}
+\vspace{-7pt}
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer}{Jun. 2020 -- Sep. 2021}
+      {Mahsan Company}{Tehran, Iran}
+      \resumeItemListStart
+      {
+      \vspace{10pt}
+        Working as a C++ developer. Some abilities like high-performance and high-quality implementation, unit testing, and agile software development in system-level products are needed.
+        My work is mostly about computer networks challenges in Linux operating system, detecting and dissecting packets. During my career in this company I get familiar with VoIP. I mostly worked with SIP and RTP protocol.
+      }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-7pt}
+
+%-----------Research EXPERIENCE-----------
+\section{Research Experience}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Assistant}{Jan. 2021 -- Sep. 2021}
+      {University of Tehran, Software Engineering}{Tehran, Iran}
+      \resumeItemListStart
+      {
+      \vspace{10pt}
+        Researcher of Intelligent information systems lab (IIS) at the University of Tehran where researchers focus on developing new methods and enhancing current algorithms used in search engines, recommender, and other information retrieval systems. Studying question retrieval in community-based question answering services in consultation with 
+        \href{https://ece.ut.ac.ir/en/~shakery}{prof. Azadeh Shakery}.
+      }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-7pt}
+
+%-----------Teaching EXPERIENCE-----------
+\section{Teaching Experience}
+\vspace{5pt}
+\begin{description}
+  \item[$\ast$] \small\textbf{Internet Engineering}, \href{https://ece.ut.ac.ir/en/~e.khamespanah}{Prof. Ehsan Khamespanah}
+  \item[$\ast$] \small\textbf{Database Systems}, \href{https://ece.ut.ac.ir/en/~shakery}{Prof. Azadeh Shakery}
+  \item[$\ast$] \small\textbf{Computer Networks}, \href{https://ece.ut.ac.ir/en/~a_khonsari}{Prof. Ahmad khonsari}
+  \item[$\ast$] \small\textbf{Computer Networks}, \href{https://ece.ut.ac.ir/en/~yazdani}{Prof. Naser Yazdani}
+  \item[$\ast$] \small\textbf{Operating Systems}, \href{https://ece.ut.ac.ir/en/~kargahi}{Prof. Mehdi Kargahi}
+  \item[$\ast$] \small\textbf{Programming Languages and Compilers}, \href{https://ece.ut.ac.ir/en/~fghassemi}{Prof. Fatemeh Ghassemi Esfahani}
+  \item[$\ast$] \small\textbf{Discrete Mathematics}, \href{https://ece.ut.ac.ir/en/~smohamadi}{Prof. Siamak Mohammadi}
+    \item[$\ast$] \small\textbf{Introduction to Computing Systems and Programming}, \href{https://ece.ut.ac.ir/en/robotic}{Prof. Hadi Moradi}
+\end{description}
+\vspace{-7pt}
+
+%
+%-----------Technical SKILLS-----------
+\section{Technical Skills}
+\vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+    \item{
+    \textbf{Programming Languages}{: C/C++, Java, Kotlin, Python, MATLAB, Verilog, VHDL}
+    \vspace{5pt} \\
+    \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio, IntelliJ IDEA, PyCharm}
+    \vspace{5pt} \\
+    \textbf{Simulation Tools}{: Modelsim, Altera Quartus, Proteus Design Suite} 
+    \vspace{5pt} \\
+    \textbf{Network Tools}{: Wireshark, Tshark} 
+    \vspace{5pt} \\
+    \textbf{Frameworks}{: Spring, Django}
+    \vspace{5pt} \\
+    \textbf{Web Development}{: HTML, CSS, JavaScript, React-JS, Docker, Kubernetes}
+    \vspace{5pt} \\
+    \textbf{Database}{: SQL, NoSQL, Redis, JPA, ORM, JDBC}
+    \vspace{5pt} \\
+    \textbf{Machine Learning}{: Tensorflow, Pytorch}
+    \vspace{5pt} \\
+    \textbf{Software}{: Design Pattern, Unit Testing, Project Management Methods}
+    \vspace{5pt} \\
+    \textbf{Typesetting}{: Microsoft Office, LATEX}
+    \vspace{5pt} \\
+    \textbf{Operating Systems}{: Windows, Linux}
+    }}
+ \end{itemize}
+ \vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Swip Brick Breaker} $|$ \emph{C++}}{March 2018}
+          \resumeItemListStart
+            \resumeItem{Implementation of graphical game in which an attendant must remove bricks to get more points.} 
+            \resumeItem{Course: Advanced Programming}
+          \resumeItemListEnd
+          \vspace{2pt}
+    \resumeProjectHeading
+          {\textbf{Poems Classification} $|$ \emph{Python}}{October 2019}
+          \resumeItemListStart
+            \resumeItem{Classification of poems of Saadi and Hafez by Naive Bayes algorithm.} 
+            \resumeItem{Course: Artificial Intelligence}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{MIPS Processor Simulation} $|$ \emph{Verilog}}{January 2019}
+          \resumeItemListStart
+            \resumeItem{Design and simulation of a MIPS Processor with Verilog including single cycle, multi-cycle, pipeline, and
+            cache.} 
+            \resumeItem{Course: Computer Architecture}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Loghmeh (Food Delivery)} $|$ \emph{Java, Spring, React, HTML, CSS}}{April 2020}
+          \resumeItemListStart
+            \resumeItem{Development and deployment of backend and frontend of online food-delivery.} 
+            \resumeItem{Course: Internet Engineering}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Electric Circuit Solver} $|$ \emph{Python}}{April 2020}
+          \resumeItemListStart
+            \resumeItem{A software for visualizing and solving electrical circuits.} 
+            \resumeItem{Course: Electric Circuits}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Compiler for ActON based Language} $|$ \emph{Java}}{April 2019}
+          \resumeItemListStart
+            \resumeItem{Implementing lexical and syntax analyzer, name analyzer, type analyzer, and code generator.} 
+            \resumeItem{Course: Compiler Design and Implementation}
+          \resumeItemListEnd
+          \vspace{10pt}
+          
+        \resumeProjectHeading
+          {\textbf{ARM Processor} $|$ \emph{Verilog}}{June 2020}
+          \resumeItemListStart
+            \resumeItem{Implementation of an ARM processor with SRAM and Caches on FPGA.} 
+            \resumeItem{Course: Computer Architecture Lab}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Multiplayer Bluetooth mobile game} $|$ \emph{Android}}{July 2021}
+          \resumeItemListStart
+            \resumeItem{Developing a real-time multiplayer mobile game like Tank Trouble, over Bluetooth. This project was implemented using Android Studio.} 
+            \resumeItem{Course: Real Time Embedded Systems}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Multilingual questions and answers retrieval with BERT} $|$ \emph{Python}}{September 2021}
+          \resumeItemListStart
+            \resumeItem{Fine tuning BERT model for question and answer retrieval.} 
+            \resumeItem{B.Sc. Thesis}
+          \resumeItemListEnd
+          \vspace{2pt}
+    
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+
+
+%------Languages-------
+\section{Languages}
+\vspace{5pt}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=8pt]
+                \item Persion (native)
+                \item English (fluent)
+                \item Arabic (familiar)
+            \end{itemize}
+        \end{multicols}
+        \vspace*{-1.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+%------HOBBIES & INTERESTS-------
+\section{Hobbies and Interests}
+\vspace{5pt}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=8pt]
+                \item sports (football)
+                \item playing chess
+                \item reading book
+            \end{itemize}
+        \end{multicols}
+        \vspace*{-1.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\vspace{20pt}
+
+
+
+
+\end{document}
