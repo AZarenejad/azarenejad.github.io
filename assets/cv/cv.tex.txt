@@ -140,9 +140,11 @@
 \section{Summary}
 \vspace{5pt}
 \justifying
-{I'm an undergraduate Computer Engineering student at 
+{I'm a graduate Computer Engineering student at 
+\href{http://sharif.edu}{Sharif University of Technology}.
+I received my bachelor's degree in computer engineering from the 
 \href{https://ece.ut.ac.ir/en}{ECE Department}
-of
+of 
 \href{https://ut.ac.ir/en}{University of Tehran}. 
 Top student at one of the greatest universities in Iran. Responsible researcher, teaching assistant. Proficient in programming and system designing. Seeking to leverage my knowledge about artificial intelligence. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
 \href{https://mahsan.co}{Mahsan company}.}
@@ -150,6 +152,15 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
 %-----------EDUCATION-----------
 \section{Education}
 \vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Computer Engineering}{Oct. 2021 -- Present}
+      {Sharif University of Technology, Artificial Intelligence}{Tehran, Iran}
+    \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{\textbf{GPA}: NA}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
   \resumeSubHeadingListStart
     \resumeSubheading
       {Bachelor of Computer Engineering}{Sep. 2017 -- Sep. 2021}
@@ -192,6 +203,9 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
                 \item Data Structures (18.2)
                 \item Engineering Probability and Statistics (19.8)
                 \item Discrete Mathematics (19.5)
+                \item Machine Learning (currently taken)
+                \item Stochastic Processes (currently taken)
+                \item Natural Language Processing (currently taken)
             \end{itemize}
         \end{multicols}
         \vspace*{-1.0\multicolsep}
@@ -232,7 +246,6 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
 \section{Research Experience}
 \vspace{5pt}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Research Assistant}{Jan. 2021 -- Sep. 2021}
       {University of Tehran, Software Engineering}{Tehran, Iran}
@@ -241,6 +254,18 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
       \vspace{10pt}
         Researcher of Intelligent information systems lab (IIS) at the University of Tehran where researchers focus on developing new methods and enhancing current algorithms used in search engines, recommender, and other information retrieval systems. Studying question retrieval in community-based question answering services in consultation with 
         \href{https://ece.ut.ac.ir/en/~shakery}{prof. Azadeh Shakery}.
+      }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Assistant}{Oct. 2021 -- Present}
+      {Sharif University of Technology, Artificial Intelligence}{Tehran, Iran}
+      \resumeItemListStart
+      {
+      \vspace{10pt}
+        Researcher of Data Science and Machine Learning Lab (DML) where researchers involved in projects such as QoS in wireless networks, scalable video coding, error concealment, wireless media streaming, Face Recognition, Video Object Tracking, Multimedia P2P and Overlay Networks, Social networks, Modeling and Analysis of Complex Networks, and Gene Expression for Cancer Detection in consultation with 
+        \href{http://sina.sharif.edu/~rabiee}{prof. HamidReza Rabiee}.
       }
       \resumeItemListEnd
   \resumeSubHeadingListEnd
