@@ -148,6 +148,7 @@ of
 \href{https://ut.ac.ir/en}{University of Tehran}. 
 Top student at one of the greatest universities in Iran. Responsible researcher, teaching assistant. Proficient in programming and system designing. Seeking to leverage my knowledge about artificial intelligence. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
 \href{https://mahsan.co}{Mahsan company}.}
+It is a great honor for me to have the opportunity to work with Dr. Ramesh Jain and the University of Irvine.
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -158,7 +159,7 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
       {Sharif University of Technology, Artificial Intelligence}{Tehran, Iran}
     \resumeItemListStart
         \vspace{2pt}
-        \resumeItem{\textbf{GPA}: NA}
+        \resumeItem{\textbf{GPA}: 19.53}
     \resumeItemListEnd
   \resumeSubHeadingListEnd
   \resumeSubHeadingListStart
@@ -203,9 +204,13 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
                 \item Data Structures (18.2)
                 \item Engineering Probability and Statistics (19.8)
                 \item Discrete Mathematics (19.5)
-                \item Machine Learning (currently taken)
-                \item Stochastic Processes (currently taken)
-                \item Natural Language Processing (currently taken)
+                \item Machine Learning (20)
+                \item Stochastic Processes (19.4)
+                \item Natural Language Processing (19.2)
+                \item Advanced Machine Learning (not graded)
+                \item Machine Learning Theory (not graded)
+                \item Image Processing (not graded)
+                \item Convex Optimization (not graded)
             \end{itemize}
         \end{multicols}
         \vspace*{-1.0\multicolsep}
@@ -247,6 +252,18 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
 \vspace{5pt}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {Research Assistant}{Oct. 2021 -- Present}
+      {Sharif University of Technology, University of Irvine}{}
+      \resumeItemListStart
+      {
+      \vspace{10pt}
+Researcher in a joint collaboration with the University of Irvine, under the supervision of prof. Ramesh Jain
+and prof. HamidReza Rabiee, working on food and ingredient prediction and recipe generation.
+      }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
       {Research Assistant}{Jan. 2021 -- Sep. 2021}
       {University of Tehran, Software Engineering}{Tehran, Iran}
       \resumeItemListStart
@@ -283,6 +300,8 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
   \item[$\ast$] \small\textbf{Programming Languages and Compilers}, \href{https://ece.ut.ac.ir/en/~fghassemi}{Prof. Fatemeh Ghassemi Esfahani}
   \item[$\ast$] \small\textbf{Discrete Mathematics}, \href{https://ece.ut.ac.ir/en/~smohamadi}{Prof. Siamak Mohammadi}
     \item[$\ast$] \small\textbf{Introduction to Computing Systems and Programming}, \href{https://ece.ut.ac.ir/en/robotic}{Prof. Hadi Moradi}
+    \item[$\ast$] \small\textbf{Cyber Physical Systems}, \href{https://ece.ut.ac.ir/en/~kargahi}{Prof. Mehdi Kargahi}
+    \item[$\ast$] \small\textbf{Engineering Probability and Statistics}, \href{http://ce.sharif.edu/faculty/ali-sharifi-zarchi/}{Prof. Ali Sharif Zarchi}
 \end{description}
 \vspace{-7pt}
 
@@ -391,6 +410,22 @@ Top student at one of the greatest universities in Iran. Responsible researcher,
           \resumeItemListStart
             \resumeItem{Fine tuning BERT model for question and answer retrieval.} 
             \resumeItem{B.Sc. Thesis}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Persian Sentiment Analysis} $|$ \emph{Python}}{November 2021}
+          \resumeItemListStart
+            \resumeItem{Design models in three different ways(logistic regression, CNN, and BERT) and compare them in sentiment analysis.} 
+            \resumeItem{Course: Natural Language Processing}
+          \resumeItemListEnd
+          \vspace{2pt}
+          
+        \resumeProjectHeading
+          {\textbf{Persian to Tajik transliteration and vice versa} $|$ \emph{Python}}{December 2021}
+          \resumeItemListStart
+            \resumeItem{Design a transformer based model with attention.} 
+            \resumeItem{Course: Natural Language Processing}
           \resumeItemListEnd
           \vspace{2pt}
     
