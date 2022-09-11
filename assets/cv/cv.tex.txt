@@ -140,28 +140,17 @@
 \section{Summary}
 \vspace{5pt}
 \justifying
-{I'm a graduate Computer Engineering student at 
-\href{http://sharif.edu}{Sharif University of Technology}.
-I received my bachelor's degree in computer engineering from the 
+{I received my bachelor's degree in computer engineering from the 
 \href{https://ece.ut.ac.ir/en}{ECE Department}
-of 
+of the
 \href{https://ut.ac.ir/en}{University of Tehran}. 
-Top student at one of the greatest universities in Iran. Responsible researcher, teaching assistant. Proficient in programming and system designing. Seeking to leverage my knowledge about artificial intelligence. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
+A top student at one of the greatest universities in Iran. Responsible researcher and teaching assistant. Proficient in programming and system designing. Seeking to leverage my knowledge about artificial intelligence and Network. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
 \href{https://mahsan.co}{Mahsan company}.}
-It is a great honor for me to have the opportunity to work with Dr. Ramesh Jain and the University of Irvine.
+My ultimate career goal is to be a world-class researcher in Computer Science and solve real-world problems, and have influential contributions.
 
 %-----------EDUCATION-----------
 \section{Education}
 \vspace{5pt}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Master of Computer Engineering}{Oct. 2021 -- Present}
-      {Sharif University of Technology, Artificial Intelligence}{Tehran, Iran}
-    \resumeItemListStart
-        \vspace{2pt}
-        \resumeItem{\textbf{GPA}: 19.53}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
   \resumeSubHeadingListStart
     \resumeSubheading
       {Bachelor of Computer Engineering}{Sep. 2017 -- Sep. 2021}
@@ -204,13 +193,9 @@ It is a great honor for me to have the opportunity to work with Dr. Ramesh Jain 
                 \item Data Structures (18.2)
                 \item Engineering Probability and Statistics (19.8)
                 \item Discrete Mathematics (19.5)
-                \item Machine Learning (20)
-                \item Stochastic Processes (19.4)
-                \item Natural Language Processing (19.2)
-                \item Advanced Machine Learning (not graded)
-                \item Machine Learning Theory (not graded)
-                \item Image Processing (not graded)
-                \item Convex Optimization (not graded)
+                \item Machine Learning (audit)
+                \item Stochastic Processes (audit)
+                \item Natural Language Processing (audit)
             \end{itemize}
         \end{multicols}
         \vspace*{-1.0\multicolsep}
@@ -221,10 +206,10 @@ It is a great honor for me to have the opportunity to work with Dr. Ramesh Jain 
 \section{Honors and Awards}
 \vspace{5pt}
 \begin{description}
-  \item[$\ast$] \small\textbf{Ranked 125}{ in Iranian University Entrance Exam among more than 250000 participants, admission to University of Tehran. } 
-  \item[$\ast$] \small\textbf{Ranked 6}{ in Computer Engineering at University of Tehran, among the 103 students, Tehran, Iran.} 
+  \item[$\ast$] \small\textbf{Ranked 125}{ in Iranian University Entrance Exam among more than 250000 participants, admission to the University of Tehran. } 
+  \item[$\ast$] \small\textbf{one of the top 10 students}{ in Computer Engineering at University of Tehran, among the 103 students.} 
 \item[$\ast$] \small\textbf{Received scholarship}{ from Supporter Foundation of University of Tehran as student with exceptional talent.} 
-\item[$\ast$] \small\textbf{Admission to University of Tehran and Sharif University of Technology }{ for the master’s degree without the Iranian University Entrance Exam because of the exceptional performance in the undergraduate studies.} 
+\item[$\ast$] \small\textbf{Admission to the University of Tehran and Sharif University of Technology }{ for the master’s degree without the Iranian University Entrance Exam because of the exceptional performance in the undergraduate studies.} 
 \end{description}
 \vspace{-7pt}
 
@@ -240,8 +225,7 @@ It is a great honor for me to have the opportunity to work with Dr. Ramesh Jain 
       \resumeItemListStart
       {
       \vspace{10pt}
-        Working as a C++ developer. Some abilities like high-performance and high-quality implementation, unit testing, and agile software development in system-level products are needed.
-        My work is mostly about computer networks challenges in Linux operating system, detecting and dissecting packets. During my career in this company I get familiar with VoIP. I mostly worked with SIP and RTP protocol.
+Working as a C++ developer. Some abilities like high-performance and high-quality implementation, unit testing, and agile software development in system-level products are needed. My work is mostly about computer network challenges in Linux operating system. During my career in this company, I get familiar with VoIP. I mainly got familiar with SIP, RTP, and STUN protocols and VOIP and IMS concepts.
       }
       \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -252,38 +236,12 @@ It is a great honor for me to have the opportunity to work with Dr. Ramesh Jain 
 \vspace{5pt}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Research Assistant}{Oct. 2021 -- Present}
-      {Sharif University of Technology, University of Irvine}{}
-      \resumeItemListStart
-      {
-      \vspace{10pt}
-Researcher in a joint collaboration with the University of Irvine, under the supervision of prof. Ramesh Jain
-and prof. HamidReza Rabiee, working on food and ingredient prediction and recipe generation.
-      }
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-  \resumeSubHeadingListStart
-    \resumeSubheading
       {Research Assistant}{Jan. 2021 -- Sep. 2021}
       {University of Tehran, Software Engineering}{Tehran, Iran}
       \resumeItemListStart
       {
       \vspace{10pt}
-        Researcher of Intelligent information systems lab (IIS) at the University of Tehran where researchers focus on developing new methods and enhancing current algorithms used in search engines, recommender, and other information retrieval systems. Studying question retrieval in community-based question answering services in consultation with 
-        \href{https://ece.ut.ac.ir/en/~shakery}{prof. Azadeh Shakery}.
-      }
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-    \resumeSubHeadingListStart
-    \resumeSubheading
-      {Research Assistant}{Oct. 2021 -- Present}
-      {Sharif University of Technology, Artificial Intelligence}{Tehran, Iran}
-      \resumeItemListStart
-      {
-      \vspace{10pt}
-        Researcher of Data Science and Machine Learning Lab (DML) where researchers involved in projects such as QoS in wireless networks, scalable video coding, error concealment, wireless media streaming, Face Recognition, Video Object Tracking, Multimedia P2P and Overlay Networks, Social networks, Modeling and Analysis of Complex Networks, and Gene Expression for Cancer Detection in consultation with 
-        \href{http://sina.sharif.edu/~rabiee}{prof. HamidReza Rabiee}.
-      }
+Researcher of Intelligent information systems lab (IIS) at the University of Tehran where researchers focus on developing new methods and enhancing current algorithms used in search engines, recommenders, and other information retrieval systems. Studying question retrieval in community-based question answering services in consultation with prof. Azadeh Shakery.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-7pt}
@@ -300,8 +258,6 @@ and prof. HamidReza Rabiee, working on food and ingredient prediction and recipe
   \item[$\ast$] \small\textbf{Programming Languages and Compilers}, \href{https://ece.ut.ac.ir/en/~fghassemi}{Prof. Fatemeh Ghassemi Esfahani}
   \item[$\ast$] \small\textbf{Discrete Mathematics}, \href{https://ece.ut.ac.ir/en/~smohamadi}{Prof. Siamak Mohammadi}
     \item[$\ast$] \small\textbf{Introduction to Computing Systems and Programming}, \href{https://ece.ut.ac.ir/en/robotic}{Prof. Hadi Moradi}
-    \item[$\ast$] \small\textbf{Cyber Physical Systems}, \href{https://ece.ut.ac.ir/en/~kargahi}{Prof. Mehdi Kargahi}
-    \item[$\ast$] \small\textbf{Engineering Probability and Statistics}, \href{http://ce.sharif.edu/faculty/ali-sharifi-zarchi/}{Prof. Ali Sharif Zarchi}
 \end{description}
 \vspace{-7pt}
 
