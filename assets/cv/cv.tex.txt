@@ -144,9 +144,10 @@
 \href{https://ece.ut.ac.ir/en}{ECE Department}
 of the
 \href{https://ut.ac.ir/en}{University of Tehran}. 
-A top student at one of the greatest universities in Iran. Responsible researcher and teaching assistant. Proficient in programming and system designing. Seeking to leverage my knowledge about artificial intelligence and Network. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
+A top student at one of the greatest universities in Iran. Responsible researcher and teaching assistant. Proficient in programming and system design. Seeking to leverage my knowledge of artificial intelligence and networks. With great experience working with honorable professors. Passionate and motivated, with a drive for excellence. I am also working as a software engineer in
 \href{https://mahsan.co}{Mahsan company}.}
-My ultimate career goal is to be a world-class researcher in Computer Science and solve real-world problems, and have influential contributions.
+My ultimate career goal is to be a world-class researcher in Computer Science and a technical developer to solve real-world problems and have influential contributions.
+I think that one of my remarkable characteristics is that if I am not fluent in something, I try to achieve relative mastery within a limited period of time and I have a good learning speed.
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -158,7 +159,7 @@ My ultimate career goal is to be a world-class researcher in Computer Science an
     \resumeItemListStart
         \vspace{2pt}
         \resumeItem{\textbf{GPA}: 18.76/20 (4/4)}
-        \resumeItem{\textbf{Final project}: Multilingual questions and answers retrival using context-based representation (BERT)}
+        \resumeItem{\textbf{Final project}: Multilingual questions and answers retrieval using context-based representation (BERT)}
     \resumeItemListEnd
   \resumeSubHeadingListEnd
     \resumeSubHeadingListStart
@@ -220,12 +221,12 @@ My ultimate career goal is to be a world-class researcher in Computer Science an
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software Engineer}{Jun. 2020 -- Sep. 2021}
+      {Software Engineer}{Jun. 2020 -- Feb. 2023}
       {Mahsan Company}{Tehran, Iran}
       \resumeItemListStart
       {
       \vspace{10pt}
-Working as a C++ developer. Some abilities like high-performance and high-quality implementation, unit testing, and agile software development in system-level products are needed. My work is mostly about computer network challenges in Linux operating system. During my career in this company, I get familiar with VoIP. I mainly got familiar with SIP, RTP, and STUN protocols and VOIP and IMS concepts.
+Working as a C++ and Python developer. Some abilities like high-performance and high-quality implementation, unit testing, and agile software development in system-level products are needed. My work is mostly about computer network challenges in Linux operating system. During my career in this company, I get familiar with VoIP. I mainly got familiar with SIP, RTP, and STUN protocols and VOIP and IMS concepts. I identified and solved some problems in distribution, concurrency, and performance. In addition, I have experience becoming a scrum master of a team and observing and managing tasks.
       }
       \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -268,7 +269,7 @@ Researcher of Intelligent information systems lab (IIS) at the University of Teh
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{
     \item{
-    \textbf{Programming Languages}{: C/C++, Java, Kotlin, Python, MATLAB, Verilog, VHDL}
+    \textbf{Programming Languages}{: C/C++, Python, Java, Kotlin, Go, Rust, MATLAB, Verilog, VHDL}
     \vspace{5pt} \\
     \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio, IntelliJ IDEA, PyCharm}
     \vspace{5pt} \\
@@ -284,7 +285,7 @@ Researcher of Intelligent information systems lab (IIS) at the University of Teh
     \vspace{5pt} \\
     \textbf{Machine Learning}{: Tensorflow, Pytorch}
     \vspace{5pt} \\
-    \textbf{Software}{: Design Pattern, Unit Testing, Project Management Methods}
+    \textbf{Software}{: Design pattern, Unit testing, Project management methods, Version control tools, Documentation with sphinx}
     \vspace{5pt} \\
     \textbf{Typesetting}{: Microsoft Office, LATEX}
     \vspace{5pt} \\
